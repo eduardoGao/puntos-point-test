@@ -1,0 +1,284 @@
+[
+  {
+    "name": "Jake Doe",
+    "date": "2024-01-09",
+    "isNew": true,
+    "havePurchase": false
+  },
+  {
+    "name": "John Doe",
+    "date": "2023-02-15",
+    "isNew": true,
+    "havePurchase": false
+  },
+  {
+    "name": "Jane Smith",
+    "date": "2023-05-28",
+    "isNew": false,
+    "havePurchase": true
+  },
+  {
+    "name": "Alice Johnson",
+    "date": "2023-07-10",
+    "isNew": true,
+    "havePurchase": true
+  },
+  {
+    "name": "Bob Anderson",
+    "date": "2023-09-22",
+    "isNew": false,
+    "havePurchase": false
+  },
+  {
+    "name": "Eva Williams",
+    "date": "2023-11-05",
+    "isNew": true,
+    "havePurchase": true
+  },
+  {
+    "name": "Michael Brown",
+    "date": "2023-12-17",
+    "isNew": false,
+    "havePurchase": false
+  },
+  {
+    "name": "Olivia Taylor",
+    "date": "2024-01-01",
+    "isNew": true,
+    "havePurchase": false
+  },
+  {
+    "name": "David Moore",
+    "date": "2024-01-12",
+    "isNew": false,
+    "havePurchase": true
+  },
+  {
+    "name": "Sophia Lee",
+    "date": "2023-02-03",
+    "isNew": true,
+    "havePurchase": false
+  },
+  {
+    "name": "Daniel Wilson",
+    "date": "2023-04-18",
+    "isNew": false,
+    "havePurchase": true
+  },
+  {
+    "name": "Emma Harris",
+    "date": "2023-06-07",
+    "isNew": true,
+    "havePurchase": true
+  },
+  {
+    "name": "Christopher Turner",
+    "date": "2023-08-30",
+    "isNew": false,
+    "havePurchase": false
+  },
+  {
+    "name": "Grace Martinez",
+    "date": "2023-10-14",
+    "isNew": true,
+    "havePurchase": false
+  },
+  {
+    "name": "Matthew Rodriguez",
+    "date": "2023-11-26",
+    "isNew": false,
+    "havePurchase": true
+  },
+  {
+    "name": "Chloe Davis",
+    "date": "2023-01-10",
+    "isNew": true,
+    "havePurchase": true
+  },
+  {
+    "name": "Andrew Miller",
+    "date": "2023-02-23",
+    "isNew": false,
+    "havePurchase": false
+  },
+  {
+    "name": "Isabella Wilson",
+    "date": "2023-04-06",
+    "isNew": true,
+    "havePurchase": false
+  },
+  {
+    "name": "James Taylor",
+    "date": "2023-05-20",
+    "isNew": false,
+    "havePurchase": true
+  },
+  {
+    "name": "Sophie White",
+    "date": "2023-07-02",
+    "isNew": true,
+    "havePurchase": false
+  },
+  {
+    "name": "Ryan Brown",
+    "date": "2023-08-15",
+    "isNew": false,
+    "havePurchase": true
+  },
+  {
+    "name": "Ava Smith",
+    "date": "2023-09-29",
+    "isNew": true,
+    "havePurchase": true
+  },
+  {
+    "name": "William Turner",
+    "date": "2023-11-10",
+    "isNew": false,
+    "havePurchase": false
+  },
+  {
+    "name": "Emily Anderson",
+    "date": "2023-12-24",
+    "isNew": true,
+    "havePurchase": false
+  },
+  {
+    "name": "Daniel Harris",
+    "date": "2024-01-05",
+    "isNew": false,
+    "havePurchase": true
+  },
+  {
+    "name": "Oliver Johnson",
+    "date": "2023-02-18",
+    "isNew": true,
+    "havePurchase": true
+  },
+  {
+    "name": "Aria Davis",
+    "date": "2023-03-03",
+    "isNew": false,
+    "havePurchase": false
+  },
+  {
+    "name": "Mason Wilson",
+    "date": "2023-04-16",
+    "isNew": true,
+    "havePurchase": false
+  },
+  {
+    "name": "Lily Moore",
+    "date": "2023-05-30",
+    "isNew": false,
+    "havePurchase": true
+  },
+  {
+    "name": "Logan Rodriguez",
+    "date": "2023-07-12",
+    "isNew": true,
+    "havePurchase": true
+  },
+  {
+    "name": "Harper Turner",
+    "date": "2023-08-25",
+    "isNew": false,
+    "havePurchase": false
+  },
+  {
+    "name": "Jackson Brown",
+    "date": "2023-10-06",
+    "isNew": true,
+    "havePurchase": false
+  },
+  {
+    "name": "Sophia Martinez",
+    "date": "2023-11-19",
+    "isNew": false,
+    "havePurchase": true
+  },
+  {
+    "name": "Ethan Harris",
+    "date": "2024-01-01",
+    "isNew": true,
+    "havePurchase": true
+  },
+  {
+    "name": "Avery White",
+    "date": "2024-01-14",
+    "isNew": false,
+    "havePurchase": false
+  },
+  {
+    "name": "Alexander Davis",
+    "date": "2023-02-29",
+    "isNew": true,
+    "havePurchase": false
+  },
+  {
+    "name": "Emma Wilson",
+    "date": "2023-04-12",
+    "isNew": false,
+    "havePurchase": true
+  },
+  {
+    "name": "Carter Anderson",
+    "date": "2023-05-25",
+    "isNew": true,
+    "havePurchase": true
+  },
+  {
+    "name": "Madison Smith",
+    "date": "2023-07-08",
+    "isNew": false,
+    "havePurchase": false
+  },
+  {
+    "name": "Noah Turner",
+    "date": "2023-08-21",
+    "isNew": true,
+    "havePurchase": false
+  },
+  {
+    "name": "Aria Taylor",
+    "date": "2023-10-03",
+    "isNew": false,
+    "havePurchase": true
+  },
+  {
+    "name": "Liam Wilson",
+    "date": "2023-11-16",
+    "isNew": true,
+    "havePurchase": true
+  },
+  {
+    "name": "Grace Anderson",
+    "date": "2023-12-29",
+    "isNew": false,
+    "havePurchase": false
+  },
+  {
+    "name": "Lucas Harris",
+    "date": "2023-02-11",
+    "isNew": true,
+    "havePurchase": false
+  },
+  {
+    "name": "Mia Davis",
+    "date": "2023-03-24",
+    "isNew": false,
+    "havePurchase": true
+  },
+  {
+    "name": "Elijah Smith",
+    "date": "2023-05-07",
+    "isNew": true,
+    "havePurchase": true
+  },
+  {
+    "name": "Ava Turner",
+    "date": "2023-06-20",
+    "isNew": false,
+    "havePurchase": false
+  }
+]
