@@ -1,4 +1,4 @@
-## PuntosPoint Assesment
+## PuntosPoint Assessment
 
 ### Production
 
@@ -10,7 +10,7 @@ Clone the repository to your local environment and execute `npm install`. Then `
 
 ### Stack
 
-- Next,js
+- Next.js using Pages router
 - React.js
 - Material UI
 - MUI X
