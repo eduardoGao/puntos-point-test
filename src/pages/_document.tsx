@@ -1,17 +1,5 @@
-import createEmotionCache from "@/createEmotionCache";
-// import createEmotionServer from "@emotion/server/dist/declarations/types/create-instance";
-import createEmotionServer from "@emotion/server/create-instance";
-import { AppType } from "next/app";
-import Document, {
-  Html,
-  Head,
-  Main,
-  NextScript,
-  DocumentContext,
-  DocumentProps,
-} from "next/document";
-import { MyAppProps } from "./_app";
-import { GoogleTagNoScript, GoogleTagScript } from "@/gta";
+import { Html, Head, Main, NextScript, DocumentProps } from "next/document";
+import { GoogleTagNoScript } from "@/gta";
 
 interface MyDocumentProps extends DocumentProps {
   emotionStyleTags: JSX.Element[];
@@ -21,9 +9,6 @@ export default function MyDocument({ emotionStyleTags }: MyDocumentProps) {
   return (
     <Html lang="en">
       <Head>
-        {/* PWA primary color */}
-        {/* <meta name="theme-color" content={theme.palette.primary.main} /> */}
-        {/* <GoogleTagScript /> */}
         <link rel="shortcut icon" href="/favicon.ico" />
         <meta name="emotion-insertion-point" content="" />
         {emotionStyleTags}
@@ -36,37 +21,3 @@ export default function MyDocument({ emotionStyleTags }: MyDocumentProps) {
     </Html>
   );
 }
-
-MyDocument.getInitialProps = async (ctx: DocumentContext) => {
-  const originalRenderPage = ctx.renderPage;
-
-  const cache = createEmotionCache();
-  const { extractCriticalToChunks } = createEmotionServer(cache);
-
-  ctx.renderPage = () =>
-    originalRenderPage({
-      enhanceApp: (
-        App: React.ComponentType<React.ComponentProps<AppType & MyAppProps>>
-      ) =>
-        function EnhanceApp(props) {
-          return <App emotionCache={cache} {...props} />;
-        },
-    });
-
-  const initialProps = await Document.getInitialProps(ctx);
-
-  const emotionStyles = extractCriticalToChunks(initialProps.html);
-  const emotionStyleTags = emotionStyles.styles.map((style) => (
-    <style
-      data-emotion={`${style.key} ${style.ids.join(" ")}`}
-      key={style.key}
-      // eslint-disable-next-line react/no-danger
-      dangerouslySetInnerHTML={{ __html: style.css }}
-    />
-  ));
-
-  return {
-    ...initialProps,
-    emotionStyleTags,
-  };
-};
